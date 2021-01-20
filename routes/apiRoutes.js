@@ -4,7 +4,7 @@ const notes = [];
 
 readDbFile();
 module.exports = function(app){
-    app.get('/api/notes', (req, res) => {
+    app.get("/api/notes", (req, res) => {
         res.json(notes);
     });
 
@@ -32,25 +32,3 @@ function readDbFile(){
     })
 }
 
-    // function readDbFile(){
-    //     fs.readFile('./db/db.json', (err, data) => {
-    //         if (err) throw err;
-
-    //         let dataJSON = JSON.parse(data);
-    //         let note = {
-    //             title: req.body.title,
-    //             text: req.body.text,
-    //             id: uuid4()
-    //         }
-    //         dataJSON.push(note);
-    //         writeDbFile(dataJSON);
-    //         console.log(dataJSON);
-    //     })
-    // }
-
-    // function writeDbFile(noteInfo){
-    //     let notes = JSON.stringify(noteInfo, null, 2);
-    //     fs.writeFile('./db/db.json', notes, (err) => {
-    //         if (err) throw err;
-    //     })
-    // }

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/nolanstucky/Note-Taker#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuid4": "^2.0.2"
   }
 }

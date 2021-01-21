@@ -6,6 +6,7 @@ An application hosted with heroku that allows the user to start taking notes by 
 ## Demonstration:
 <img src="https://github.com/nolanstucky/Note-Taker/blob/main/public/assets/img/note-taker2.JPG" alt = "note-taker main page" style="width: 80%;">
 <img src="https://github.com/nolanstucky/Note-Taker/blob/main/public/assets/img/note-taker1.JPG" alt = "note-taker note page" style="width: 80%;">
+
 ## Heroku Link:
 https://ns-note-taker.herokuapp.com/notes
 

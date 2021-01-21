@@ -4,8 +4,8 @@
 An application hosted with heroku that allows the user to start taking notes by clicking on a "Get Started" button. The user is transfered to the note page which they are able to write notes with a title and text for a single note. They are also able to save the note to the server. Additionally they can get rid of any note by clicking on a red trash can deleting the note permently. 
 
 ## Demonstration:
-![Alt text](./public/assets/img/note-taker2.jpg?raw=true "Title")
-![Alt text](./public/assets/img/note-taker1.jpg?raw=true "Title")
+<img src="https://github.com/nolanstucky/Note-Taker/blob/main/public/assets/img/note-taker2.JPG" alt = "note-taker main page" style="width: 80%;">
+<img src="https://github.com/nolanstucky/Note-Taker/blob/main/public/assets/img/note-taker1.JPG" alt = "note-taker note page" style="width: 80%;">
 ## Heroku Link:
 https://ns-note-taker.herokuapp.com/notes
 
